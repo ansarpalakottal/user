@@ -1,0 +1,7 @@
+---
+# tasks file for user
+
+- name: restarting the service
+  service:
+    name: tomcat
+    state: started
